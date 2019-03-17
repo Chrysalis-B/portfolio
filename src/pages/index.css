@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.park-page-content-container {
+    height: 100vh;
+    width: 100vw;
+    background: #C037DC;
+    background: linear-gradient(to right bottom,#C7BAE3, #C037DC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.park-page-content-image {
+    font-size: 100px;
+} 
+
+.park-page-content-text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #E0DAEB;
+}
+
+@media only screen and (max-width: 500px) {
+    .park-page-content-text {
+        font-size: 70px;
+    } 
+  }
