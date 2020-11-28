@@ -14,13 +14,13 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
-    "gatsby": "^2.1.31",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "gatsby": "^2.27.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.16.4"
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
